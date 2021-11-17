@@ -1,0 +1,35 @@
+creating requests, postman.
+
+Try a request 
+Go to requestbin.net (scrn1)
+Create requestbin (scrn2)
+Past address in postman and send (scrn3)
+On requestbin.net I see de request that I just did with postman it’s a GET (scrn4)
+In the video I saw how to change somthing in a request url.
+
+How to change headers…
+
+How to import a request from your browser in Postman
+
+How to inspect HTTP responses in Postman
+There are 3 parts of responses in Postman 
+	- The status
+	- The body
+	- The header
+
+The status code is very important if the request is successful the status will be 200(or response status that starts with 2).
+If the status start with 4(404, 403)  indicates that you have sensed something that isn't just as OK and the server couldn't understand it.
+And if it starts with a 5 that is because of a server problem.
+
+Handling cookies in Postman
+To see the existing cookies Postman offers the cookie manager. Here are listed for each and every domain where I send a request, all the cookies.
+To edit the value you need to double click the name.
+Click on on add cookie too and a cookie.
+
+Troubleshooting Postman issues
+
+Saving requests to a collection in Postman
+You save a request by placing it in a collection you can than essay share it to others 
+
+At the end of the course I had to do a assignment. (scrn5)
+
