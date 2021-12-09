@@ -1,0 +1,37 @@
+tools:
+collection runner
+postman monitors
+newman
+newman and jenkins
+newman and other CI servers
+
+postman collection runner
+
+file > new runner tab
+
+environment
+iterations
+delay = interval il milliseconds
+logging responses
+data files
+
+postman monitors
+run collections at regular intervals
+pro feature but you can use up to 1000 API calls per month free
+overview of all monitors that you have
+
+known limitations:
+postman servers are not in the same network as you are
+cannot import global variables (but can create them if needed)
+global and environment variables are not persisted
+
+give monitor a name
+choose environment
+schedule timer/minutes
+regions
+
+newman
+why is automation important?
+using automation you reduce repetitive manual work
+get INSTANT feedback when something does not work anymore
+identify software bugs early in the development process

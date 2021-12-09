@@ -1,0 +1,25 @@
+
+Global variables
+
+variables has value en scope
+
+
+initial value vs current value
+if you give in an inital value it will transfer it to the current value and if you change the current value it will not transfer it to the current value
+
+
+Pre-request scripts
+ideal for making your requests dynamic, usually used in combination with variables, similar to test scripts
+
+Environment variables
+ideal when working with different servers and is a good alternative to global variables
+
+collection variables
+tied to a collection
+cannot be updated using scripts
+ideal for storing some constants that do not change during the execution
+
+data variables
+used when working with multiple data-sets
+exist only during the execution of an iteration
+can only be set from a CSV or a JSON file

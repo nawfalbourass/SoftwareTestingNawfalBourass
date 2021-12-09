@@ -1,0 +1,7 @@
+Writing API tests
+
+What is a test: is just a simple assertion (you just check a value from the response against an expected value)
+Example the response can be the statuscode.
+
+I tried to run a test on postman that already exist in postman just to see how it works (scrn1)
+Then I made it fall on purpose by adding random word in de url. I saw then that the test failed the status code was 404 not found. (scrn2)

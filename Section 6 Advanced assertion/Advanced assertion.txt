@@ -1,0 +1,16 @@
+steps to write assertions:
+parse the response body
+write a test
+
+parsing the response body
+
+response body type:
+json > pm.response.json() is the most common
+xml > xml2json(responseBody)
+html > cheerio(pm.response.text())
+plain-text > pm.response.text()
+csv > csv-parse/lib/sync
+
+assertions
+
+So far we have only looked into the status code and the response body for writing tests. But you can also make assertions on the headers or cookies.

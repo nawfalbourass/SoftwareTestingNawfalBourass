@@ -1,0 +1,9 @@
+
+Mockserver:
+fake API that simulates a server response but tries to behave like a real API
+can be used to serve canned responses to specific requests
+
+use of mock server
+API design, prototyping and development
+API testing
+for isolating external dependencies in the testing process
